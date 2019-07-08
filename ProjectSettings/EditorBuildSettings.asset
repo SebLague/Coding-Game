@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/Game.unity
+    guid: 8cedaf3442cc24ad9a66eec2684bfec1
+  - enabled: 1
+    path: Assets/_Scenes/Tasks/Double Turret.unity
+    guid: fb9087f969fc54e288db790b25aa99e8
+  - enabled: 1
+    path: Assets/_Scenes/Tasks/Fibonacci.unity
+    guid: 251b8d249ae9343b9966d06b732831e3
+  - enabled: 1
+    path: Assets/_Scenes/Tasks/Rover.unity
+    guid: b02ae399d6c264f0d9150d7c5a150f41
+  - enabled: 1
+    path: Assets/_Scenes/Tasks/Pong.unity
+    guid: eb0f2aa6911bc4104ab4a31ea8e5fbb1
+  - enabled: 1
+    path: Assets/_Scenes/Tasks/Fixed Turret.unity
+    guid: 85184802e4f274b928ce41a49c1f8392
+  m_configObjects: {}

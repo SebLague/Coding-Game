@@ -1,0 +1,2 @@
+x= enemy[0]
+x=enemy[3*2 - 7]

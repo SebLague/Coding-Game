@@ -1,0 +1,2 @@
+speed = sqrt(sqrt(baseDrain*efficiency/3))
+setSpeed(speed)

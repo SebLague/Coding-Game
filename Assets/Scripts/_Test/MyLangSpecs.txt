@@ -1,0 +1,15 @@
+---- General ----
+Nothing is case sensitive
+
+---- Variables ----
+All variables are floats.
+All variables have global scope
+Variables are declared like so: 
+    x = 0
+
+---- Loops ----
+Loops are defined like so:
+for x from 0 to 10
+{
+
+}

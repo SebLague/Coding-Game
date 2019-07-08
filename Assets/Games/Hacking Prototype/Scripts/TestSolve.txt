@@ -1,0 +1,20 @@
+aimX = 0
+aimY = 0
+closestSqrDst = 999
+i = 0
+
+loop(numGuards)
+{
+dx = intruderPosX - guardPosX[i]
+dy = intruderPosY - guardPosY[i]
+sqrDst = dx * dx + dy * dy
+
+if (sqrDst <  closestSqrDst)
+{
+closestSqrDst = sqrDst
+aimX = guardPosX[i]
+aimY = guardPosY[i]
+}
+i++
+}
+setAim(aimX, aimY)

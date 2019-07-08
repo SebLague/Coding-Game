@@ -1,0 +1,18 @@
+if (dirY == 0) {
+    output(ballY)
+}
+loop(20)
+{
+    dxPerY = dirX/abs(dirY)
+    dyPerX = dirY/abs(dirX)
+    dstVert = arenaHeight/2 * sign(dirY) - posY
+    dx = abs(dstVert) * dxPerY
+    pxAfterMove = posX + dx - abs(dxPerY * ballRadius) * sign(dirX)
+    if (abs(pxAfterMove + ballRadius * sign(dirX)) >= arenaWidth/2)
+    {
+        output(posY + abs(arenaWidth/2* sign(dirX)-posX-ballRadius* sign(dirX)) * dyPerX)
+    }
+    posX = pxAfterMove
+    posY = (arenaHeight/2 - ballRadius) * sign(dirY)
+    dirY = -dirY
+}

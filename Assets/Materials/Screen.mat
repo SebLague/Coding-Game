@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Screen
+  m_Shader: {fileID: 4800000, guid: 6e1e54c57771b455280e52851ba36386, type: 3}
+  m_ShaderKeywords: _USEABERRATION_ON _USECURVE_ON _USESCANLINES_ON _USEVIGNETTE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisplacementTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AbberationStrength: 0.58
+    - _AbberationStrengthA: 1
+    - _Br: -20
+    - _Brightness: 2.5
+    - _BrightnessOffset: -4.9
+    - _BumpScale: 1
+    - _Contrast: 2
+    - _CurveX: 5
+    - _CurveY: 4
+    - _Cutoff: 0.5
+    - _Density: 17.5
+    - _DetailNormalMapScale: 1
+    - _Distort: 0
+    - _Distortion: 0.6
+    - _DoubleOffset: 4.02
+    - _DoubleStrength: 0.16
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _LineDistributionPow: 0.75
+    - _LinePow: 1.7
+    - _LineScale: 1.5
+    - _LineWeight: 0.67
+    - _LineWeightMax: 0.75
+    - _LineWeightMin: 0.15
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OnOff: 634
+    - _Parallax: 0.02
+    - _Pixelation: 0
+    - _ScanDensity: 0.37
+    - _ScanPoint: 1080
+    - _ScanSpeed: 2
+    - _ScanThikness: 408
+    - _SizeX: 1103.2
+    - _SizeY: 300
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Strength: 0
+    - _Tiles: 1833
+    - _UVSec: 0
+    - _UseAberration: 1
+    - _UseConvergence: 1
+    - _UseCurve: 1
+    - _UseScanLines: 1
+    - _UseVignette: 1
+    - _VertsColor: 1
+    - _VertsColor2: 0.8
+    - _VignettePower: 0.25
+    - _ZWrite: 1
+    - _Zoom: 1.03
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColourOffset: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Params: {r: 1.12, g: 0.17, b: 0.68, a: 0.2}
+    - _ScansColor: {r: 1, g: 1, b: 1, a: 1}

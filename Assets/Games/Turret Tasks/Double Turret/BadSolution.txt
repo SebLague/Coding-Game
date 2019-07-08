@@ -1,0 +1,8 @@
+if (dstA>dstB)
+{
+    shootB()
+}
+if(dstB>=dstA)
+{
+    shootA()
+}

@@ -1,0 +1,10 @@
+timeA = dstA/speedA
+timeB = dstB/speedB
+
+if (timeA>timeB)
+{
+    fireB()
+}
+else {
+    fireA()
+}

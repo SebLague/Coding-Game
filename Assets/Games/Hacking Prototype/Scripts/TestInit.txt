@@ -1,0 +1,21 @@
+targetOffsetX = intruderPosX - turretPosX
+targetOffsetY = intruderPosY - turretPosY
+
+a = intruderSpeed * intruderSpeed - missileSpeed * missileSpeed
+b = 2 * (targetOffsetX * intruderDirX + targetOffsetY * intruderDirY) * intruderSpeed
+c = targetOffsetX*targetOffsetX + targetOffsetY*targetOffsetY+turretHeight*turretHeight
+
+descriminant = b*b-4*a*c
+if (descriminant >= 0)
+{
+    t1 = (-b + sqrt(descriminant))/(2*a)
+    t2 = (-b - sqrt(descriminant))/(2*a)
+    t = t2
+    if (t1 < t2 and t1 >= 0)
+    {
+        t = t1
+    }
+    aimX = intruderPosX + intruderDirX * intruderSpeed * t
+    aimY = intruderPosY + intruderDirY * intruderSpeed * t
+    Aim(aimX, aimY)
+}

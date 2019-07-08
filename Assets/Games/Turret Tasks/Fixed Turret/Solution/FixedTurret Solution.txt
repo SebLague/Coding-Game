@@ -1,0 +1,9 @@
+dy = posY
+dx = abs(dy)*dirX/abs(dirY)
+dst = sqrt(dy*dy+dx*dx)
+
+vf = sqrt(speed*speed + 2*accel*dst)
+targetTime = (vf-speed)/accel
+bulletTime = (posX+dX)/bulletSpeed
+
+fire(targetTime-bulletTime)

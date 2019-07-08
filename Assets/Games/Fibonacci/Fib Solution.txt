@@ -1,0 +1,9 @@
+f = 1
+p = 0
+loop(n-1)
+{
+    fp = f
+    f+=p
+    p=fp
+}
+setSize(f)
